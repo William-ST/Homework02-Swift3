@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B542FCAF1E48FC4400D0B3F6 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542FCAE1E48FC4400D0B3F6 /* ListTableViewController.swift */; };
+		B542FCB11E49029F00D0B3F6 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542FCB01E49029F00D0B3F6 /* CalculateViewController.swift */; };
 		B5C181B41E450B5100317904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C181B31E450B5100317904 /* AppDelegate.swift */; };
 		B5C181B61E450B5100317904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C181B51E450B5100317904 /* ViewController.swift */; };
 		B5C181B91E450B5100317904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C181B71E450B5100317904 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B5C181BE1E450B5100317904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C181BC1E450B5100317904 /* LaunchScreen.storyboard */; };
 		B5C181C91E450B5200317904 /* Homework02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C181C81E450B5200317904 /* Homework02Tests.swift */; };
 		B5C181D41E450B5200317904 /* Homework02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C181D31E450B5200317904 /* Homework02UITests.swift */; };
+		B5F2C6DE1E4A92490047BE5F /* ShowTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F2C6DD1E4A92490047BE5F /* ShowTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B542FCAE1E48FC4400D0B3F6 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		B542FCB01E49029F00D0B3F6 /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		B5C181B01E450B5100317904 /* Homework02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C181B31E450B5100317904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C181B51E450B5100317904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		B5C181CF1E450B5200317904 /* Homework02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C181D31E450B5200317904 /* Homework02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework02UITests.swift; sourceTree = "<group>"; };
 		B5C181D51E450B5200317904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F2C6DD1E4A92490047BE5F /* ShowTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B5C181BA1E450B5100317904 /* Assets.xcassets */,
 				B5C181BC1E450B5100317904 /* LaunchScreen.storyboard */,
 				B5C181BF1E450B5100317904 /* Info.plist */,
+				B542FCAE1E48FC4400D0B3F6 /* ListTableViewController.swift */,
+				B542FCB01E49029F00D0B3F6 /* CalculateViewController.swift */,
+				B5F2C6DD1E4A92490047BE5F /* ShowTextViewController.swift */,
 			);
 			path = Homework02;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B542FCAF1E48FC4400D0B3F6 /* ListTableViewController.swift in Sources */,
+				B5F2C6DE1E4A92490047BE5F /* ShowTextViewController.swift in Sources */,
+				B542FCB11E49029F00D0B3F6 /* CalculateViewController.swift in Sources */,
 				B5C181B61E450B5100317904 /* ViewController.swift in Sources */,
 				B5C181B41E450B5100317904 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +515,7 @@
 				B5C181DA1E450B5200317904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C181DB1E450B5200317904 /* Build configuration list for PBXNativeTarget "Homework02Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				B5C181DD1E450B5200317904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C181DE1E450B5200317904 /* Build configuration list for PBXNativeTarget "Homework02UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				B5C181E01E450B5200317904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
